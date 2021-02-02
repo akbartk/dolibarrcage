@@ -3,7 +3,6 @@ FROM amd64/php:7.2-apache
 # Install the packages we need
 # Install the PHP extensions we need
 # see https://wiki.dolibarr.org/index.php/Dependencies_and_external_libraries
-# Prepare folders
 
 RUN set -ex; \
 	apt-get update -q; \
