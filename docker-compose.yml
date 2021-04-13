@@ -24,7 +24,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-      args: 
+      args:
         - TAG=${TAG}
         - VCS_REF=${VCS_REF}
         - BUILD_DATE=${BUILD_DATE}
